@@ -2,8 +2,8 @@
 //  PermissionScope.h
 //  PermissionScope
 //
-//  Created by Nick O'Neill on 4/5/15.
-//  Copyright (c) 2015 That Thing in Swift. All rights reserved.
+//  Updated by Artur Kashapov on 4/01/18.
+//  Copyright © 2018 That Thing in Swift. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

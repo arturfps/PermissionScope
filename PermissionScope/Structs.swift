@@ -2,8 +2,8 @@
 //  Structs.swift
 //  PermissionScope
 //
-//  Created by Nick O'Neill on 8/21/15.
-//  Copyright © 2015 That Thing in Swift. All rights reserved.
+//  Updated by Artur Kashapov on 4/01/18.
+//  Copyright © 2018 That Thing in Swift. All rights reserved.
 //
 
 import Foundation

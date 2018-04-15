@@ -2,8 +2,8 @@
 //  Permissions.swift
 //  PermissionScope
 //
-//  Created by Nick O'Neill on 8/25/15.
-//  Copyright © 2015 That Thing in Swift. All rights reserved.
+//  Updated by Artur Kashapov on 4/01/18.
+//  Copyright © 2018 That Thing in Swift. All rights reserved.
 //
 
 import Foundation
@@ -16,10 +16,11 @@ import CoreBluetooth
 import CoreMotion
 import CloudKit
 import Accounts
+import UserNotifications
 
 /**
-*  Protocol for permission configurations.
-*/
+ *  Protocol for permission configurations.
+ */
 @objc public protocol Permission {
     /// Permission type
     var type: PermissionType { get }
@@ -27,9 +28,8 @@ import Accounts
 
 @objc public class NotificationsPermission: NSObject, Permission {
     public let type: PermissionType = .notifications
-    public let notificationCategories: Set<UIUserNotificationCategory>?
-    
-    public init(notificationCategories: Set<UIUserNotificationCategory>? = nil) {
+    public let notificationCategories: Set<UNNotificationCategory>?
+    public init(notificationCategories: Set<UNNotificationCategory>? = nil) {
         self.notificationCategories = notificationCategories
     }
 }
