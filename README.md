@@ -1,4 +1,4 @@
-## PermissionScope with support iOS 10 and 11 APIs, updated to Swift 4.1!
+## PermissionScope with support iOS 10 and 11 APIs, updated to Swift 4.1! *ONLY iOS
 
 <p align="center">
     <img src="http://raquo.net/images/banner.png" alt="PermissionScope" />
